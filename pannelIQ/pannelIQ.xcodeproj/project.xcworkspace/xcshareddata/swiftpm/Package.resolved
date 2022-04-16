@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AWSiOSSDKV2",
+        "repositoryURL": "https://github.com/aws-amplify/aws-sdk-ios-spm",
+        "state": {
+          "branch": null,
+          "revision": "02704e61f9e6ad3588b744c65f2c56624932b609",
+          "version": "2.27.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

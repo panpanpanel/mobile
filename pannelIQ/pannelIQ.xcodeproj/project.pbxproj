@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E16288227EA16B400CCAD19 /* EnergyMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E16288127EA16B400CCAD19 /* EnergyMeasurements.swift */; };
+		5E54D3C127D7AAFC007FD699 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54D3C027D7AAFC007FD699 /* HomeViewController.swift */; };
+		5E54D3C327D7AB77007FD699 /* NotificaitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54D3C227D7AB77007FD699 /* NotificaitonViewController.swift */; };
+		5E54D3C527D7AB86007FD699 /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54D3C427D7AB86007FD699 /* InsightsViewController.swift */; };
+		5E54D3C727D7AB90007FD699 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54D3C627D7AB90007FD699 /* ControlViewController.swift */; };
+		5E54D3C927D7B1E8007FD699 /* UniversalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54D3C827D7B1E8007FD699 /* UniversalControl.swift */; };
+		5EA5848327DBA1B7009FD310 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848227DBA1B7009FD310 /* MainView.swift */; };
+		5EA5848627DBA2D5009FD310 /* AWSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848527DBA2D5009FD310 /* AWSData.swift */; };
+		5EA5848827DBA504009FD310 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848727DBA504009FD310 /* NotificationView.swift */; };
+		5EA5848A27DBA518009FD310 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848927DBA518009FD310 /* InsightsView.swift */; };
+		5EA5848C27DBA525009FD310 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848B27DBA525009FD310 /* ControlView.swift */; };
+		5EA5848E27DBA88B009FD310 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5848D27DBA88B009FD310 /* HomeView.swift */; };
+		5EA5849127DD22BC009FD310 /* AWSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5EA5849027DD22BC009FD310 /* AWSCore */; };
+		5EA5849327DD22BC009FD310 /* AWSDynamoDB in Frameworks */ = {isa = PBXBuildFile; productRef = 5EA5849227DD22BC009FD310 /* AWSDynamoDB */; };
+		5EA5849527DD22BC009FD310 /* AWSIoT in Frameworks */ = {isa = PBXBuildFile; productRef = 5EA5849427DD22BC009FD310 /* AWSIoT */; };
+		5EC6B6F027A46FD800FB57A7 /* pannelIQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6B6EF27A46FD800FB57A7 /* pannelIQApp.swift */; };
+		5EC6B6F427A46FDA00FB57A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6B6F327A46FDA00FB57A7 /* Assets.xcassets */; };
+		5EC6B6F727A46FDA00FB57A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6B6F627A46FDA00FB57A7 /* Preview Assets.xcassets */; };
+		5EC6B70127A46FDB00FB57A7 /* pannelIQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6B70027A46FDB00FB57A7 /* pannelIQTests.swift */; };
+		5EC6B70B27A46FDB00FB57A7 /* pannelIQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6B70A27A46FDB00FB57A7 /* pannelIQUITests.swift */; };
+		5EC6B70D27A46FDB00FB57A7 /* pannelIQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6B70C27A46FDB00FB57A7 /* pannelIQUITestsLaunchTests.swift */; };
+		5EC6B71A27A474D000FB57A7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6B71927A474D000FB57A7 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC6B6FD27A46FDB00FB57A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC6B6E427A46FD800FB57A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC6B6EB27A46FD800FB57A7;
+			remoteInfo = pannelIQ;
+		};
+		5EC6B70727A46FDB00FB57A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC6B6E427A46FD800FB57A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC6B6EB27A46FD800FB57A7;
+			remoteInfo = pannelIQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E16288127EA16B400CCAD19 /* EnergyMeasurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyMeasurements.swift; sourceTree = "<group>"; };
+		5E54D3C027D7AAFC007FD699 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5E54D3C227D7AB77007FD699 /* NotificaitonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificaitonViewController.swift; sourceTree = "<group>"; };
+		5E54D3C427D7AB86007FD699 /* InsightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewController.swift; sourceTree = "<group>"; };
+		5E54D3C627D7AB90007FD699 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		5E54D3C827D7B1E8007FD699 /* UniversalControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalControl.swift; sourceTree = "<group>"; };
+		5EA5848227DBA1B7009FD310 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5EA5848527DBA2D5009FD310 /* AWSData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSData.swift; sourceTree = "<group>"; };
+		5EA5848727DBA504009FD310 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5EA5848927DBA518009FD310 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		5EA5848B27DBA525009FD310 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		5EA5848D27DBA88B009FD310 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5EC6B6EC27A46FD800FB57A7 /* pannelIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pannelIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6B6EF27A46FD800FB57A7 /* pannelIQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pannelIQApp.swift; sourceTree = "<group>"; };
+		5EC6B6F327A46FDA00FB57A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC6B6F627A46FDA00FB57A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EC6B6FC27A46FDB00FB57A7 /* pannelIQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pannelIQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6B70027A46FDB00FB57A7 /* pannelIQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pannelIQTests.swift; sourceTree = "<group>"; };
+		5EC6B70627A46FDB00FB57A7 /* pannelIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pannelIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6B70A27A46FDB00FB57A7 /* pannelIQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pannelIQUITests.swift; sourceTree = "<group>"; };
+		5EC6B70C27A46FDB00FB57A7 /* pannelIQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pannelIQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EC6B71927A474D000FB57A7 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC6B6E927A46FD800FB57A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA5849527DD22BC009FD310 /* AWSIoT in Frameworks */,
+				5EA5849327DD22BC009FD310 /* AWSDynamoDB in Frameworks */,
+				5EA5849127DD22BC009FD310 /* AWSCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B6F927A46FDB00FB57A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B70327A46FDB00FB57A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E54D3CA27D7B4A3007FD699 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E54D3C027D7AAFC007FD699 /* HomeViewController.swift */,
+				5E54D3C227D7AB77007FD699 /* NotificaitonViewController.swift */,
+				5E54D3C427D7AB86007FD699 /* InsightsViewController.swift */,
+				5E54D3C627D7AB90007FD699 /* ControlViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5EA5848427DBA1CF009FD310 /* UIVIews */ = {
+			isa = PBXGroup;
+			children = (
+				5EA5848227DBA1B7009FD310 /* MainView.swift */,
+				5EA5848D27DBA88B009FD310 /* HomeView.swift */,
+				5EA5848727DBA504009FD310 /* NotificationView.swift */,
+				5EA5848927DBA518009FD310 /* InsightsView.swift */,
+				5EA5848B27DBA525009FD310 /* ControlView.swift */,
+			);
+			name = UIVIews;
+			sourceTree = "<group>";
+		};
+		5EC6B6E327A46FD800FB57A7 = {
+			isa = PBXGroup;
+			children = (
+				5EC6B6EE27A46FD800FB57A7 /* pannelIQ */,
+				5EC6B6FF27A46FDB00FB57A7 /* pannelIQTests */,
+				5EC6B70927A46FDB00FB57A7 /* pannelIQUITests */,
+				5EC6B6ED27A46FD800FB57A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC6B6ED27A46FD800FB57A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6B6EC27A46FD800FB57A7 /* pannelIQ.app */,
+				5EC6B6FC27A46FDB00FB57A7 /* pannelIQTests.xctest */,
+				5EC6B70627A46FDB00FB57A7 /* pannelIQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC6B6EE27A46FD800FB57A7 /* pannelIQ */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6B6EF27A46FD800FB57A7 /* pannelIQApp.swift */,
+				5E16288127EA16B400CCAD19 /* EnergyMeasurements.swift */,
+				5EA5848527DBA2D5009FD310 /* AWSData.swift */,
+				5EA5848427DBA1CF009FD310 /* UIVIews */,
+				5E54D3C827D7B1E8007FD699 /* UniversalControl.swift */,
+				5EC6B71927A474D000FB57A7 /* Storyboard.storyboard */,
+				5E54D3CA27D7B4A3007FD699 /* ViewControllers */,
+				5EC6B6F327A46FDA00FB57A7 /* Assets.xcassets */,
+				5EC6B6F527A46FDA00FB57A7 /* Preview Content */,
+			);
+			path = pannelIQ;
+			sourceTree = "<group>";
+		};
+		5EC6B6F527A46FDA00FB57A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6B6F627A46FDA00FB57A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EC6B6FF27A46FDB00FB57A7 /* pannelIQTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6B70027A46FDB00FB57A7 /* pannelIQTests.swift */,
+			);
+			path = pannelIQTests;
+			sourceTree = "<group>";
+		};
+		5EC6B70927A46FDB00FB57A7 /* pannelIQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6B70A27A46FDB00FB57A7 /* pannelIQUITests.swift */,
+				5EC6B70C27A46FDB00FB57A7 /* pannelIQUITestsLaunchTests.swift */,
+			);
+			path = pannelIQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC6B6EB27A46FD800FB57A7 /* pannelIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6B71027A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQ" */;
+			buildPhases = (
+				5EC6B6E827A46FD800FB57A7 /* Sources */,
+				5EC6B6E927A46FD800FB57A7 /* Frameworks */,
+				5EC6B6EA27A46FD800FB57A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pannelIQ;
+			packageProductDependencies = (
+				5EA5849027DD22BC009FD310 /* AWSCore */,
+				5EA5849227DD22BC009FD310 /* AWSDynamoDB */,
+				5EA5849427DD22BC009FD310 /* AWSIoT */,
+			);
+			productName = pannelIQ;
+			productReference = 5EC6B6EC27A46FD800FB57A7 /* pannelIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6B6FB27A46FDB00FB57A7 /* pannelIQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6B71327A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQTests" */;
+			buildPhases = (
+				5EC6B6F827A46FDB00FB57A7 /* Sources */,
+				5EC6B6F927A46FDB00FB57A7 /* Frameworks */,
+				5EC6B6FA27A46FDB00FB57A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC6B6FE27A46FDB00FB57A7 /* PBXTargetDependency */,
+			);
+			name = pannelIQTests;
+			productName = pannelIQTests;
+			productReference = 5EC6B6FC27A46FDB00FB57A7 /* pannelIQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC6B70527A46FDB00FB57A7 /* pannelIQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6B71627A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQUITests" */;
+			buildPhases = (
+				5EC6B70227A46FDB00FB57A7 /* Sources */,
+				5EC6B70327A46FDB00FB57A7 /* Frameworks */,
+				5EC6B70427A46FDB00FB57A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC6B70827A46FDB00FB57A7 /* PBXTargetDependency */,
+			);
+			name = pannelIQUITests;
+			productName = pannelIQUITests;
+			productReference = 5EC6B70627A46FDB00FB57A7 /* pannelIQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC6B6E427A46FD800FB57A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5EC6B6EB27A46FD800FB57A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5EC6B6FB27A46FDB00FB57A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5EC6B6EB27A46FD800FB57A7;
+					};
+					5EC6B70527A46FDB00FB57A7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5EC6B6EB27A46FD800FB57A7;
+					};
+				};
+			};
+			buildConfigurationList = 5EC6B6E727A46FD800FB57A7 /* Build configuration list for PBXProject "pannelIQ" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC6B6E327A46FD800FB57A7;
+			packageReferences = (
+				5EA5848F27DD22BC009FD310 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
+			productRefGroup = 5EC6B6ED27A46FD800FB57A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC6B6EB27A46FD800FB57A7 /* pannelIQ */,
+				5EC6B6FB27A46FDB00FB57A7 /* pannelIQTests */,
+				5EC6B70527A46FDB00FB57A7 /* pannelIQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC6B6EA27A46FD800FB57A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6B6F727A46FDA00FB57A7 /* Preview Assets.xcassets in Resources */,
+				5EC6B6F427A46FDA00FB57A7 /* Assets.xcassets in Resources */,
+				5EC6B71A27A474D000FB57A7 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B6FA27A46FDB00FB57A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B70427A46FDB00FB57A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC6B6E827A46FD800FB57A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA5848327DBA1B7009FD310 /* MainView.swift in Sources */,
+				5EA5848E27DBA88B009FD310 /* HomeView.swift in Sources */,
+				5EC6B6F027A46FD800FB57A7 /* pannelIQApp.swift in Sources */,
+				5E54D3C527D7AB86007FD699 /* InsightsViewController.swift in Sources */,
+				5EA5848C27DBA525009FD310 /* ControlView.swift in Sources */,
+				5EA5848A27DBA518009FD310 /* InsightsView.swift in Sources */,
+				5EA5848627DBA2D5009FD310 /* AWSData.swift in Sources */,
+				5E54D3C327D7AB77007FD699 /* NotificaitonViewController.swift in Sources */,
+				5E54D3C927D7B1E8007FD699 /* UniversalControl.swift in Sources */,
+				5E16288227EA16B400CCAD19 /* EnergyMeasurements.swift in Sources */,
+				5E54D3C727D7AB90007FD699 /* ControlViewController.swift in Sources */,
+				5E54D3C127D7AAFC007FD699 /* HomeViewController.swift in Sources */,
+				5EA5848827DBA504009FD310 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B6F827A46FDB00FB57A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6B70127A46FDB00FB57A7 /* pannelIQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6B70227A46FDB00FB57A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6B70D27A46FDB00FB57A7 /* pannelIQUITestsLaunchTests.swift in Sources */,
+				5EC6B70B27A46FDB00FB57A7 /* pannelIQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC6B6FE27A46FDB00FB57A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC6B6EB27A46FD800FB57A7 /* pannelIQ */;
+			targetProxy = 5EC6B6FD27A46FDB00FB57A7 /* PBXContainerItemProxy */;
+		};
+		5EC6B70827A46FDB00FB57A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC6B6EB27A46FD800FB57A7 /* pannelIQ */;
+			targetProxy = 5EC6B70727A46FDB00FB57A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EC6B70E27A46FDB00FB57A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC6B70F27A46FDB00FB57A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC6B71127A46FDB00FB57A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pannelIQ/Preview Content\"";
+				DEVELOPMENT_TEAM = 8258DS384H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6B71227A46FDB00FB57A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pannelIQ/Preview Content\"";
+				DEVELOPMENT_TEAM = 8258DS384H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6B71427A46FDB00FB57A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pannelIQ.app/pannelIQ";
+			};
+			name = Debug;
+		};
+		5EC6B71527A46FDB00FB57A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pannelIQ.app/pannelIQ";
+			};
+			name = Release;
+		};
+		5EC6B71727A46FDB00FB57A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pannelIQ;
+			};
+			name = Debug;
+		};
+		5EC6B71827A46FDB00FB57A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PannyPanPan.pannelIQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pannelIQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC6B6E727A46FD800FB57A7 /* Build configuration list for PBXProject "pannelIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6B70E27A46FDB00FB57A7 /* Debug */,
+				5EC6B70F27A46FDB00FB57A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6B71027A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6B71127A46FDB00FB57A7 /* Debug */,
+				5EC6B71227A46FDB00FB57A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6B71327A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6B71427A46FDB00FB57A7 /* Debug */,
+				5EC6B71527A46FDB00FB57A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6B71627A46FDB00FB57A7 /* Build configuration list for PBXNativeTarget "pannelIQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6B71727A46FDB00FB57A7 /* Debug */,
+				5EC6B71827A46FDB00FB57A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EA5848F27DD22BC009FD310 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EA5849027DD22BC009FD310 /* AWSCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EA5848F27DD22BC009FD310 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCore;
+		};
+		5EA5849227DD22BC009FD310 /* AWSDynamoDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EA5848F27DD22BC009FD310 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSDynamoDB;
+		};
+		5EA5849427DD22BC009FD310 /* AWSIoT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EA5848F27DD22BC009FD310 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSIoT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5EC6B6E427A46FD800FB57A7 /* Project object */;
+}
